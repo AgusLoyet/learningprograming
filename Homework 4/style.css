@@ -1,0 +1,15 @@
+h1{
+    color: blueviolet;
+}
+p.texto{
+    color: red;
+}
+p.especial {
+    color:green ;
+}
+div p{
+    color: aqua;
+}
+div h2, div h3{
+    color: brown;
+}

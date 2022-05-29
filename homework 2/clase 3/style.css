@@ -1,0 +1,15 @@
+body{
+    text-align: center;
+    background-color: bisque;
+}
+img{
+    border: 60px;
+}
+button{
+    margin: 60px;
+    border: 2px solid red;
+    border-radius: 15px;
+}
+h1{
+    background-color: aquamarine;
+}

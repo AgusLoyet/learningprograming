@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100&family=Lexend+Deca:wght@100&family=Outfit:wght@100&family=Overpass:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100&family=Lexend+Deca:wght@100&family=Outfit:wght@100&family=Overpass:wght@100&display=swap');
+*{
+    border:0px;
+    box-sizing: border-box;
+    font-family: 'Lexan deca' 'Big Shoulders Display';
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: lightgray;
+    margin-top: 150px;
+}
+h2{
+    margin: 20px 0px;
+    font-family: 'Big Shoulders Display';
+    color: white;
+    font-weight: 700;
+    font-size: 1cm;
+}
+p{
+    font-family: 'Lexend Deca';
+    color: white;
+    font-weight: 400;
+    font-size: 15px;
+}
+img{
+    width: 1cm;
+}
+button{
+    margin-top: 60px;
+    height: 40px;
+    width: 70%;
+    background-color: white;
+    border-radius: 30px;
+    border:2px
+}
+button:hover{
+    cursor: pointer;
+}
+.todos{
+    display: flex;
+    justify-content: center;
+}
+.sedan{
+    border-top-left-radius: 5px ;
+    border-bottom-left-radius: 5px;
+    padding: 50px;
+    background-color:hsl(31, 77%, 52%);
+} 
+.suv{
+    padding: 50px;
+    background-color: hsl(184, 100%, 22%);
+}
+.cruise{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 50px;
+    background-color: hsl(179, 100%, 13%);
+}
+.lmorese{
+    color:hsl(31, 77%, 52%) ;
+}
+.lmorese:hover{
+    background-color:hsl(31, 77%, 52%);
+    color:white;
+    border-color: white;
+    border:solid 1px;
+}
+.lmoresu{
+    color:hsl(184, 100%, 22%) ;
+}
+.lmoresu:hover{
+    background-color:hsl(184, 100%, 22%) ;
+    color:white;
+    border-color: white;
+    border:solid 1px;
+}
+.lmorecr{
+    color: hsl(179, 100%, 13%);
+}
+.lmorecr:hover{
+    background-color:hsl(179, 100%, 13%) ;
+    color: white;
+    border-color: white;
+    border:solid 1px;
+}
